@@ -1,5 +1,8 @@
+*{
+	font-family: 'Roboto';
+}
 .landing_welcome{
-	height: 500px;
+	height: 430px;
 	width: 500px;
 	box-shadow:  -6px -6px 8px #ffffff73,  5px 5px 3px #25252573 ;
 	border-radius: 18px;
@@ -19,15 +22,18 @@ html{
 .welcome_body{
 	width: fit-content;
 	display: grid;
-	padding-left: 15%;
+	padding-left: 13%;
+	padding-right: 10%;
 	padding-top: 7%;
 	row-gap:100px;
 	
 }
+
 .line{
-	justify-content: space-between;
+	display: inline-flex;
 }
-#inpb{
+
+.inpb{
 	font-size: 30px;
 	border: none;
 	background-color: #dde1e7;
@@ -36,6 +42,34 @@ html{
 	border-radius: 5px;
 	box-shadow: inset -6px -6px 5px 0px #ffffff73,inset 5px 5px 4px 0px #25252573;
 }
-#inpb:focus{
+.inpb:focus{
 	background-color: orange;
+}
+
+#eye{
+	width: 40px;
+	height: 36px;
+	border: none;
+	background-color: transparent;
+	background-image: url("szem_.png");
+}
+
+#login{
+	cursor: pointer;
+	background-color:#dde1e7 ;
+	box-shadow:  -8px -8px 8px #ffffff73,  7px 7px 3px #25252573 ;
+	border: none;
+	border-radius: 15px;
+	height: 45px;
+	width: 140px;
+	margin-left: 30%;
+}
+#lp{
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 25px;
+	display: block;
+	padding: 6%;
+	border: none;
+	margin: auto;
 }
